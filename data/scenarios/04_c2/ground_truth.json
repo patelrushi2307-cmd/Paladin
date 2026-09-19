@@ -1,0 +1,14 @@
+{
+  "scenario_id": "04_c2",
+  "events": [
+    {
+      "start_time": "2026-09-19T12:00:00Z",
+      "end_time": "2026-09-19T12:00:05Z",
+      "threat_class": "C2_BEACON",
+      "subtype": null,
+      "source": "10.0.5.5",
+      "destination": "198.51.100.9",
+      "notes": "Evaluation metadata only"
+    }
+  ]
+}

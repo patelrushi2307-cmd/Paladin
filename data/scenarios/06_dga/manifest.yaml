@@ -1,0 +1,4 @@
+scenario_id: 06_dga
+sources: [raw/scenarios/06_dga.jsonl]
+labels: ['DGA_DNS_TUNNEL']
+notes: Controlled offline JSONL observations; ground truth is evaluation metadata only.

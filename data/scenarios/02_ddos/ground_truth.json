@@ -1,0 +1,14 @@
+{
+  "scenario_id": "02_ddos",
+  "events": [
+    {
+      "start_time": "2026-09-19T12:00:00Z",
+      "end_time": "2026-09-19T12:00:07Z",
+      "threat_class": "DDOS",
+      "subtype": null,
+      "source": "10.0.1.1",
+      "destination": "10.0.2.5",
+      "notes": "Evaluation metadata only"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "scenario_id": "07_dns_tunnel",
+  "events": [
+    {
+      "start_time": "2026-09-19T12:00:00Z",
+      "end_time": "2026-09-19T12:00:05Z",
+      "threat_class": "DGA_DNS_TUNNEL",
+      "subtype": null,
+      "source": "10.0.8.5",
+      "destination": "10.0.8.53",
+      "notes": "Evaluation metadata only"
+    }
+  ]
+}

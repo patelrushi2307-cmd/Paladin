@@ -1,0 +1,9 @@
+scenario_id: mixed_demo
+description: Sequential offline validation scenario assembled from local inputs
+sources: []
+replay_configuration:
+  mode: realtime
+  target_flows_per_sec: 100
+expected_threat_windows: []
+labels: [BENIGN, DDOS, RECON, C2_BEACON, DATA_EXFILTRATION, DGA_DNS_TUNNEL, ENCRYPTED_MALWARE]
+notes: Populate sources and ground_truth.json only with actual controlled files.

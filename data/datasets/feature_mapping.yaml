@@ -1,0 +1,8 @@
+mappings:
+  Flow Duration: flow_duration
+  Tot Fwd Pkts: packets_total
+  TotLen Fwd Pkts: bytes_total
+  Flow Byts/s: bytes_per_sec
+  Flow Pkts/s: packets_per_sec
+  Label: label
+notes: Mappings are examples only and require semantic validation against each dataset manifest.

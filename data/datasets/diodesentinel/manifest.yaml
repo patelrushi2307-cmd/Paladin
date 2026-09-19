@@ -1,0 +1,10 @@
+dataset_id: paladin
+name: Paladin controlled local datasets
+source: user-provided local files
+license: unknown / user-provided
+version: 1.0
+capture_period: unknown
+traffic_types: [benign, controlled offline scenarios]
+label_schema: canonical labels in data/datasets/labels.yaml
+feature_schema: FeatureVector schema 1.0
+notes: No external dataset is required at runtime. Keep ground truth separate from observed features.

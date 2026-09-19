@@ -1,0 +1,14 @@
+{
+  "scenario_id": "01_normal",
+  "events": [
+    {
+      "start_time": "2026-09-19T12:00:00.100000Z",
+      "end_time": "2026-09-19T12:00:03.300000Z",
+      "threat_class": "BENIGN",
+      "subtype": null,
+      "source": "10.0.0.10",
+      "destination": "10.0.0.20",
+      "notes": "Evaluation metadata only"
+    }
+  ]
+}

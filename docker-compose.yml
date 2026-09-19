@@ -1,0 +1,19 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:///./data/paladin.db
+      DATA_ROOT: /app/data
+      PCAP_ROOT: /app/data/raw
+      JSONL_ROOT: /app/data/raw
+      LOG_LEVEL: INFO
+    volumes:
+      - ./data:/app/data
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend

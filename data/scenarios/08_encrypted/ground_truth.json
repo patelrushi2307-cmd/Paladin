@@ -1,0 +1,14 @@
+{
+  "scenario_id": "08_encrypted",
+  "events": [
+    {
+      "start_time": "2026-09-19T12:00:00Z",
+      "end_time": "2026-09-19T12:00:00Z",
+      "threat_class": "ENCRYPTED_MALWARE",
+      "subtype": null,
+      "source": "10.0.9.5",
+      "destination": "198.51.100.20",
+      "notes": "Evaluation metadata only"
+    }
+  ]
+}

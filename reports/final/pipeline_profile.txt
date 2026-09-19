@@ -1,0 +1,38 @@
+         291394 function calls (288513 primitive calls) in 0.326 seconds
+
+   Ordered by: cumulative time
+   List reduced from 2275 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.326    0.326 C:\Program Files\Python311\Lib\asyncio\runners.py:160(run)
+        1    0.000    0.000    0.325    0.325 C:\Program Files\Python311\Lib\asyncio\runners.py:86(run)
+        3    0.000    0.000    0.325    0.108 C:\Program Files\Python311\Lib\asyncio\base_events.py:617(run_until_complete)
+        3    0.000    0.000    0.325    0.108 C:\Program Files\Python311\Lib\asyncio\windows_events.py:317(run_forever)
+        3    0.000    0.000    0.325    0.108 C:\Program Files\Python311\Lib\asyncio\base_events.py:593(run_forever)
+        6    0.000    0.000    0.325    0.054 C:\Program Files\Python311\Lib\asyncio\base_events.py:1845(_run_once)
+       11    0.000    0.000    0.325    0.030 C:\Program Files\Python311\Lib\asyncio\events.py:78(_run)
+       11    0.000    0.000    0.325    0.030 {method 'run' of '_contextvars.Context' objects}
+        1    0.000    0.000    0.325    0.325 D:\hackathon\SIH2026\DiodeSentinel\scripts\benchmark_pcap.py:14(run)
+       23    0.000    0.000    0.238    0.010 D:\hackathon\SIH2026\DiodeSentinel\backend\app\ingest\pcap.py:31(stream)
+     82/1    0.001    0.000    0.228    0.228 <frozen importlib._bootstrap>:1165(_find_and_load)
+     82/1    0.000    0.000    0.228    0.228 <frozen importlib._bootstrap>:1120(_find_and_load_unlocked)
+    157/3    0.000    0.000    0.226    0.075 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+     69/3    0.000    0.000    0.226    0.075 <frozen importlib._bootstrap>:666(_load_unlocked)
+     66/3    0.000    0.000    0.226    0.075 <frozen importlib._bootstrap_external>:934(exec_module)
+     69/3    0.001    0.000    0.225    0.075 {built-in method builtins.exec}
+        1    0.000    0.000    0.146    0.146 D:\hackathon\SIH2026\DiodeSentinel\.venv\Lib\site-packages\scapy\layers\inet.py:1(<module>)
+     11/3    0.000    0.000    0.081    0.027 {built-in method builtins.__import__}
+        1    0.000    0.000    0.078    0.078 D:\hackathon\SIH2026\DiodeSentinel\.venv\Lib\site-packages\scapy\layers\__init__.py:1(<module>)
+        1    0.000    0.000    0.078    0.078 D:\hackathon\SIH2026\DiodeSentinel\.venv\Lib\site-packages\scapy\config.py:1(<module>)
+        1    0.000    0.000    0.074    0.074 D:\hackathon\SIH2026\DiodeSentinel\.venv\Lib\site-packages\scapy\ansmachine.py:1(<module>)
+        1    0.000    0.000    0.069    0.069 D:\hackathon\SIH2026\DiodeSentinel\.venv\Lib\site-packages\scapy\arch\__init__.py:1(<module>)
+       22    0.000    0.000    0.060    0.003 D:\hackathon\SIH2026\DiodeSentinel\backend\app\alerts\service.py:20(process)
+      133    0.000    0.000    0.056    0.000 {built-in method builtins.next}
+       80    0.000    0.000    0.045    0.001 D:\hackathon\SIH2026\DiodeSentinel\backend\app\repositories.py:25(_connection)
+        1    0.000    0.000    0.042    0.042 D:\hackathon\SIH2026\DiodeSentinel\.venv\Lib\site-packages\scapy\utils.py:1(<module>)
+       13    0.000    0.000    0.041    0.003 D:\hackathon\SIH2026\DiodeSentinel\backend\app\repositories.py:45(create)
+  705/689    0.005    0.000    0.039    0.000 {built-in method builtins.__build_class__}
+        1    0.000    0.000    0.038    0.038 D:\hackathon\SIH2026\DiodeSentinel\.venv\Lib\site-packages\scapy\base_classes.py:1(<module>)
+        1    0.000    0.000    0.037    0.037 D:\hackathon\SIH2026\DiodeSentinel\.venv\Lib\site-packages\scapy\error.py:1(<module>)
+
+

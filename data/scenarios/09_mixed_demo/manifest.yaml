@@ -1,0 +1,4 @@
+scenario_id: 09_mixed_demo
+sources: [raw/scenarios/09_mixed_demo.jsonl]
+labels: ['BENIGN', 'DDOS', 'RECON', 'C2_BEACON', 'DATA_EXFILTRATION', 'DGA_DNS_TUNNEL', 'DGA_DNS_TUNNEL', 'ENCRYPTED_MALWARE']
+notes: Controlled offline JSONL observations; ground truth is evaluation metadata only.

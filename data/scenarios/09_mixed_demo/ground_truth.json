@@ -1,0 +1,85 @@
+{
+  "scenario_id": "09_mixed_demo",
+  "events": [
+    {
+      "start_time": "2026-09-19T12:00:00.100000Z",
+      "end_time": "2026-09-19T12:00:03.300000Z",
+      "threat_class": "BENIGN",
+      "subtype": null,
+      "source": "10.0.0.10",
+      "destination": "10.0.0.20",
+      "flow_count": 5,
+      "notes": "Phase BENIGN offline observation window"
+    },
+    {
+      "start_time": "2026-09-19T12:00:10Z",
+      "end_time": "2026-09-19T12:00:17Z",
+      "threat_class": "DDOS",
+      "subtype": null,
+      "source": "10.0.1.1",
+      "destination": "10.0.2.5",
+      "flow_count": 8,
+      "notes": "Phase DDOS offline observation window"
+    },
+    {
+      "start_time": "2026-09-19T12:00:20Z",
+      "end_time": "2026-09-19T12:00:27Z",
+      "threat_class": "RECON",
+      "subtype": null,
+      "source": "10.0.3.5",
+      "destination": "10.0.4.1",
+      "flow_count": 8,
+      "notes": "Phase RECON offline observation window"
+    },
+    {
+      "start_time": "2026-09-19T12:00:30Z",
+      "end_time": "2026-09-19T12:00:35Z",
+      "threat_class": "C2_BEACON",
+      "subtype": null,
+      "source": "10.0.5.5",
+      "destination": "198.51.100.9",
+      "flow_count": 6,
+      "notes": "Phase C2_BEACON offline observation window"
+    },
+    {
+      "start_time": "2026-09-19T12:00:40Z",
+      "end_time": "2026-09-19T12:00:40Z",
+      "threat_class": "DATA_EXFILTRATION",
+      "subtype": null,
+      "source": "10.0.6.5",
+      "destination": "203.0.113.9",
+      "flow_count": 1,
+      "notes": "Phase DATA_EXFILTRATION offline observation window"
+    },
+    {
+      "start_time": "2026-09-19T12:00:50Z",
+      "end_time": "2026-09-19T12:00:50Z",
+      "threat_class": "DGA_DNS_TUNNEL",
+      "subtype": null,
+      "source": "10.0.7.5",
+      "destination": "10.0.7.53",
+      "flow_count": 1,
+      "notes": "Phase DGA_DNS_TUNNEL offline observation window"
+    },
+    {
+      "start_time": "2026-09-19T12:00:52Z",
+      "end_time": "2026-09-19T12:00:57Z",
+      "threat_class": "DGA_DNS_TUNNEL",
+      "subtype": null,
+      "source": "10.0.8.5",
+      "destination": "10.0.8.53",
+      "flow_count": 6,
+      "notes": "Phase DGA_DNS_TUNNEL offline observation window"
+    },
+    {
+      "start_time": "2026-09-19T12:01:00Z",
+      "end_time": "2026-09-19T12:01:00Z",
+      "threat_class": "ENCRYPTED_MALWARE",
+      "subtype": null,
+      "source": "10.0.9.5",
+      "destination": "198.51.100.20",
+      "flow_count": 1,
+      "notes": "Phase ENCRYPTED_MALWARE offline observation window"
+    }
+  ]
+}

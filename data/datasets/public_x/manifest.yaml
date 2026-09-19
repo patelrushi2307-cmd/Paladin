@@ -1,0 +1,10 @@
+dataset_id: public_x
+name: Public cybersecurity dataset placeholder
+source: unknown / user-provided
+license: unknown / user-provided
+version: unknown
+capture_period: unknown
+traffic_types: unknown
+label_schema: inspect before mapping
+feature_schema: dataset-specific; map only semantically justified fields
+notes: Do not place unverified public data in this directory without recording provenance and license.

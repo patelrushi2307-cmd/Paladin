@@ -1,0 +1,4 @@
+scenario_id: 05_exfil
+sources: [raw/scenarios/05_exfil.jsonl]
+labels: ['DATA_EXFILTRATION']
+notes: Controlled offline JSONL observations; ground truth is evaluation metadata only.

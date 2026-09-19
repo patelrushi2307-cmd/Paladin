@@ -1,0 +1,4 @@
+scenario_id: 03_recon
+sources: [raw/scenarios/03_recon.jsonl]
+labels: ['RECON']
+notes: Controlled offline JSONL observations; ground truth is evaluation metadata only.

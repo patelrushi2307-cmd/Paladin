@@ -1,0 +1,1 @@
+{"event_id": "dga-0", "timestamp": "2026-09-19T12:00:00Z", "src_ip": "10.0.7.5", "dst_ip": "10.0.7.53", "src_port": 40000, "dst_port": 53, "protocol": "UDP", "packets": 1, "bytes": 200, "duration": 0.5, "direction": "unknown", "source_type": "jsonl", "dns_query": "x8j29dk29q8s1m7.example.test", "dns_record_type": "A"}

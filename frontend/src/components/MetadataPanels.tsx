@@ -1,0 +1,7 @@
+import type { FeatureVector } from '../types/ingest';
+import { Panel } from './Panel';
+
+function show(vector: FeatureVector | null, name: string) { return vector?.availability[name] && vector.values[name] !== null && vector.values[name] !== undefined ? String(vector.values[name]) : 'N/A'; }
+export function MetadataPanels({ vector }: { vector: FeatureVector | null }) {
+  return <div className="metadata-grid"><Panel title="DNS analysis" eyebrow="PASSIVE QUERY METADATA"><div className="metadata-list"><span>Observed query <b>{show(vector, 'dns_query_length')}</b></span><span>Entropy <b>{show(vector, 'dns_query_entropy')}</b></span><span>Length <b>{show(vector, 'dns_query_length')}</b></span><span>Digit ratio <b>{show(vector, 'digit_ratio')}</b></span><span>N-gram score <b>{show(vector, 'ngram_score')}</b></span><span>Record type <b>{show(vector, 'record_type')}</b></span></div></Panel><Panel title="Encrypted session" eyebrow="METADATA ONLY"><div className="encrypted-badge">PAYLOAD DECRYPTION <strong>OFF</strong></div><div className="metadata-list"><span>Protocol <b>{show(vector, 'protocol')}</b></span><span>TLS version <b>{show(vector, 'tls_version')}</b></span><span>JA3 / JA3S / JA4 <b>{show(vector, 'tls_fingerprint')}</b></span><span>SNI present <b>{show(vector, 'tls_sni_present')}</b></span><span>Packet size mean <b>{show(vector, 'packet_size_mean')}</b></span><span>IAT CV <b>{show(vector, 'iat_cv')}</b></span></div></Panel></div>;
+}

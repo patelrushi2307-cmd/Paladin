@@ -1,0 +1,9 @@
+canonical_labels:
+  - BENIGN
+  - DDOS
+  - RECON
+  - C2_BEACON
+  - DATA_EXFILTRATION
+  - DGA_DNS_TUNNEL
+  - ENCRYPTED_MALWARE
+notes: Source labels must be inspected and mapped explicitly; no automatic equivalence is assumed.

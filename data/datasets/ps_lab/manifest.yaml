@@ -1,0 +1,10 @@
+dataset_id: ps_lab
+name: Problem-statement laboratory exports
+source: isolated lab capture, user-provided
+license: unknown / user-provided
+version: 1.0
+capture_period: unknown
+traffic_types: [iperf3, Ostinato, TRex, hping3, DNS, C2 emulator where separately generated]
+label_schema: canonical labels in data/datasets/labels.yaml
+feature_schema: FeatureVector schema 1.0
+notes: Tools are optional and must never be connected to the detection ingest path.

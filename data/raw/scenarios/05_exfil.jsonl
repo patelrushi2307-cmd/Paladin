@@ -1,0 +1,1 @@
+{"event_id": "exfil-0", "timestamp": "2026-09-19T12:00:00Z", "src_ip": "10.0.6.5", "dst_ip": "203.0.113.9", "src_port": 40000, "dst_port": 443, "protocol": "TCP", "packets": 10000, "bytes": 50000000, "duration": 120, "direction": "outbound", "source_type": "jsonl"}
